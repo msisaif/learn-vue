@@ -1,0 +1,15 @@
+[
+  { "id": 1, "name": "Vue3", "slug": "vue3" },
+  { "id": 2, "name": "JavaScript", "slug": "javascript" },
+  { "id": 3, "name": "Frontend", "slug": "frontend" },
+  { "id": 4, "name": "Tailwind", "slug": "tailwind" },
+  { "id": 5, "name": "CSS", "slug": "css" },
+  { "id": 6, "name": "Design", "slug": "design" },
+  { "id": 7, "name": "Pinia", "slug": "pinia" },
+  { "id": 8, "name": "State Management", "slug": "state-management" },
+  { "id": 9, "name": "Responsive", "slug": "responsive" },
+  { "id": 10, "name": "Async", "slug": "async" },
+  { "id": 11, "name": "Programming", "slug": "programming" },
+  { "id": 12, "name": "Vue Router", "slug": "vue-router" },
+  { "id": 13, "name": "Routing", "slug": "routing" }
+]

@@ -15,6 +15,28 @@ const router = createRouter({
       path: '/contact',
       component: () => import('@/views/ContactView.vue'),
     },
+    // Blog Routes
+    {
+      path: '/blog',
+      component: () => import('@/views/BlogListView.vue'),
+    },
+    {
+      path: '/blog/:slug',
+      component: () => import('@/views/BlogDetailView.vue'),
+    },
+    // Admin Routes
+    {
+      path: '/admin/blog',
+      component: () => import('@/views/AdminBlogListView.vue'),
+    },
+    {
+      path: '/admin/blog/create',
+      component: () => import('@/views/AdminBlogCreateView.vue'),
+    },
+    {
+      path: '/admin/blog/edit/:id',
+      component: () => import('@/views/AdminBlogEditView.vue'),
+    },
     {
       path: '/:pathMatch(.*)*',
       component: () => import('@/views/NotFoundView.vue'),

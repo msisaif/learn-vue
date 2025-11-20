@@ -9,8 +9,10 @@
     </RouterLink>
     <nav class="flex justify-end gap-4" aria-label="Main navigation">
       <RouterLink to="/" aria-current="page">Home</RouterLink>
+      <RouterLink to="/blog">Blog</RouterLink>
       <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/contact">Contact</RouterLink>
+      <RouterLink to="/admin/blog" class="text-blue-600 font-semibold">Admin</RouterLink>
     </nav>
   </header>
 </template>

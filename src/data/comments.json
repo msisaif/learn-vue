@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "postId": 1,
+    "author": "Alice",
+    "email": "alice@example.com",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice",
+    "content": "Great article! Very helpful for beginners.",
+    "date": "2024-01-16",
+    "replies": [
+      {
+        "id": 2,
+        "author": "John Doe",
+        "email": "john@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+        "content": "Thanks for reading! Glad you found it helpful.",
+        "date": "2024-01-16"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "postId": 1,
+    "author": "Bob",
+    "email": "bob@example.com",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob",
+    "content": "Can you provide more examples?",
+    "date": "2024-01-17",
+    "replies": []
+  },
+  {
+    "id": 4,
+    "postId": 2,
+    "author": "Charlie",
+    "email": "charlie@example.com",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Charlie",
+    "content": "Excellent tips on Tailwind CSS!",
+    "date": "2024-01-21",
+    "replies": []
+  }
+]

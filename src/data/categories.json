@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Vue.js",
+    "slug": "vuejs",
+    "description": "Articles about Vue.js framework"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "slug": "css",
+    "description": "CSS styling and design articles"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "slug": "javascript",
+    "description": "JavaScript programming articles"
+  },
+  {
+    "id": 4,
+    "name": "Web Design",
+    "slug": "web-design",
+    "description": "Web design and UX articles"
+  }
+]
