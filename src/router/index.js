@@ -15,7 +15,16 @@ const router = createRouter({
       path: '/contact',
       component: () => import('@/views/ContactView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      component: () => import('@/views/NotFoundView.vue'),
+    },
   ],
+})
+
+// Error handling for router
+router.onError((error) => {
+  console.error('Router error:', error)
 })
 
 export default router

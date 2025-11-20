@@ -3,12 +3,15 @@ import AboutSection from '@/components/common/AboutSection.vue'
 import ImageSlider from '@/components/common/ImageSlider.vue'
 import HeroSection from '@/components/home/HeroSection.vue'
 
-const images = ['photo-1.jpg', 'photo-2.jpg']
-
+const images = [
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Testimonial 1',
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Testimonial 2',
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Testimonial 3',
+]
 </script>
 
 <template>
-  <HeroSection v-for="n in 2" :key="n" />
+  <HeroSection />
   <AboutSection />
   <section>
     <h1 class="font-bold lg:text-4xl text-3xl text-blue-900 leading-normal text-center">

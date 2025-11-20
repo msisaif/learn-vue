@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import ImageSlider from '../common/ImageSlider.vue'
 
-const images = ['banner-1.jpg', 'banner-2.jpg']
+const images = [
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Hero 1',
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Hero 2',
+  'https://khanakhazana-msisaif.vercel.app/api/og?title=Hero 3',
+]
 </script>
 
 <template>
@@ -11,8 +15,10 @@ const images = ['banner-1.jpg', 'banner-2.jpg']
         জেনেসিস পরিবারে <br />
         আপনাকে স্বাগতম!
       </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </div>
-    <ImageSlider :images />
+    <div role="img" :aria-label="`Banner image showcase with ${images.length} images`">
+      <ImageSlider :images="images" />
+    </div>
   </section>
 </template>
